@@ -6,3 +6,5 @@ nbdist/
 nbactions.xml
 .nb-gradle/
 .DS_Store
+/nbproject/project.properties
+/nbproject/project.xml
