@@ -1,0 +1,24 @@
+--
+-- Table structure for table `items`
+--
+
+CREATE TABLE `items` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT '',
+  `description` text,
+  `weight` int(11) DEFAULT '0',
+  `stock` int(11) DEFAULT '0',
+  `price` decimal(10,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `items`
+--
+
+INSERT INTO `items` (`id`, `title`, `description`, `weight`, `stock`, `price`) VALUES
+(1, 'Magere kwark', '500gr Magere kwark van onze boerderij...', 500, 50, 0.84),
+(2, 'Groene thee', 'Biologische groene tee met heerlijke smaak...', 50, 10, 1.59),
+(3, 'Oude kaas', 'Oude kaas met stukjes zout voor extra smaak...', 250, 23, 5.89),
+(4, 'Energy water', 'Natuurlijke water met extra vitaminen...', 250, 60, 2.88);
+
