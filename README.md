@@ -1,8 +1,8 @@
 <h3>Title</h3>
-A simple exchange inteface for specified products
+Product viewer with exchange rates
 
 <h3>Description</h3>
-A simple web interface application where you can choose a product from the list and you get back extra information for that product and price in other monatery. 
+A simple web interface application where you can choose a product from the list and you get back extra information for that product and prices in other monateries. 
 The information of the products reside in a database and are fetched with an ajax request. 
 The original price is in euro's and the other monatery prices are calculated with the exchange rates from an external API (fixer.io).
 The application makes use of object oriented programming (interfaces, class extension etc).
