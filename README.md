@@ -11,3 +11,4 @@ It also uses very simple styling and a very basic responsive functionality. In s
 
 <h3>Installation</h3>
 Use the given MySQL schema found in api/Config/schema to create the db structure and setup the db connection
+Also setup the correct db parameters found in file api/Config/config.php
